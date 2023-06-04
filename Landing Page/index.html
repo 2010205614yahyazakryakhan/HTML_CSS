@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahya Zakrya Khan Programlama Eğitimleri</title>
+    <meta name="keywords" content="Java,JavaScript" />
+    <meta
+      name="discription"
+      content="Yahya Zakrya Khan Programlama Eğitimleri"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/global.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="CSS/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="CSS/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Yahya Zakrya Khan</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img
+        src="images/CamScanner 09-15-2022 08.23.jpg"
+        alt="Yahya Zakrya Khan"
+      />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Yahya Zakrya Khan</h2>
+        <p>Computer Engineer Student</p>
+      </div>
+      <a href="#coureses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            itaque magni nostrum dolores quasi repellat neque minus qui unde
+            soluta?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Online İçerikler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            itaque magni nostrum dolores quasi repellat neque minus qui unde
+            soluta?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Konferanslar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            itaque magni nostrum dolores quasi repellat neque minus qui unde
+            soluta?
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/indir.png" alt="Java" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Java Geliştirici Kursu</div>
+              <div class="description">
+                Komple Java Geliştirici Kursu \ Sıfırdan Java Öğrenin
+              </div>
+              <div class="instructor">Yahya Zakrya Khan, Bilgisayar Bilimi</div>
+              <div class="rating">4.0 \ (5000 Oylama)</div>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/indir (1).png" alt="JavaScript" />
+              <span>%80 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Modern JavaScript Kursu</div>
+              <div class="description">
+                Komple Modern JavaScript Kursu - ES6+
+              </div>
+              <div class="instructor">Yahya Zakrya Khan, Bilgisayar Bilimi</div>
+              <div class="rating">4.5 (8000 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+      <form>
+        <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+        <div class="form-grup">
+          <label for="name">İsim</label>
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="İsim"
+          />
+        </div>
+        <div class="form-grup">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="E-Mail"
+          />
+        </div>
+        <div class="form-grup">
+          <label for="message">Mesaj</label>
+          <textarea
+            name="message"
+            id="message"
+            class="form-control"
+            rows="5"
+            placeholder="Mesajınız"
+          ></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-block">Gönder</button>
+      </form>
+
+      <ul>
+        <li>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+      </div>
+    </footer>
+  </body>
+</html>

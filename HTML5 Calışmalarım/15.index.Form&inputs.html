@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & Inputs</title>
+  </head>
+  <body>
+    <form>
+      <!--HTML5 Input-->
+      <label for="Name">Name</label> <br />
+      <input type="text" id="name" name="name" placeholder="Your Name" /> <br />
+
+      <label for="email">Email</label> <br />
+      <input type="email" id="email" name="email" /> <br />
+      <label for="password">Password</label> <br />
+      <input type="password" name="password" id="password" /> <br />
+
+      <label for="date">Date</label> <br />
+      <input type="date" name="date" id="date" /> <br />
+
+      Gender <br />
+      male
+      <input type="radio" name="gender" value="male" />
+      female
+      <input type="radio" name="gender" value="female" />
+      Other
+      <input type="radio" name="gender" value="other" /><br />
+
+      Hobbies <br />
+      Technology
+      <input type="checkbox" name="tech" id="tech" /><br />
+      Music
+      <input type="checkbox" name="music" id="music" /><br />
+
+      Degree <br />
+
+      <select name="degree" id="degree">
+        <option value="bachelor">Lisans</option>
+        <option value="msc">Yüksek Lisans</option>
+        <option value="phd">Doktora</option>
+      </select>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Your Message"
+      ></textarea
+      ><br />
+
+      <button type="reset">Sıfırla</button>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
